@@ -161,7 +161,7 @@ with st.sidebar:
 
     page = st.radio(
         "Navigate",
-        ["🏠  Overview & Abstract", "📖  Introduction", "⚙️  System Overview", "🔭  Future Impact", "🌍  Social Impact"],
+        ["🏠  Overview & Abstract", "📖  Introduction", "⚙️  System Overview", "🔭  Future Scope", "🌍  Social Impact"],
         label_visibility="collapsed"
     )
 
@@ -238,7 +238,7 @@ if page == "🏠  Overview & Abstract":
 
         st.markdown("""
         <div class="card-teal">
-            <div style='font-family: Space Mono, monospace; font-size:0.65rem; color:#5BADA6; letter-spacing:2px; text-transform:uppercase; margin-bottom:0.5rem;'>🔭 Future Impact</div>
+            <div style='font-family: Space Mono, monospace; font-size:0.65rem; color:#5BADA6; letter-spacing:2px; text-transform:uppercase; margin-bottom:0.5rem;'>🔭 Future Scope</div>
             <div style='font-family: Cormorant Garamond, serif; font-size:1.2rem; font-weight:600; color:#1C2B2A; margin-bottom:0.4rem;'>Where This Is Headed</div>
             <p class='body-text' style='font-size:0.9rem;'>Multi-organ expansion, hospital integration, and an autonomous body-part classifier — the roadmap ahead.</p>
         </div>
@@ -477,12 +477,12 @@ elif page == "⚙️  System Overview":
         """, unsafe_allow_html=True)
 
 # ─────────────────────────────────────────────────────────────────────────────
-#  PAGE 4 – FUTURE IMPACT
+#  PAGE 4 – FUTURE SCOPE
 # ─────────────────────────────────────────────────────────────────────────────
-elif page == "🔭  Future Impact":
+elif page == "🔭  Future Scope":
 
     st.markdown('<div class="display-sub">Roadmap</div>', unsafe_allow_html=True)
-    st.markdown('<div class="display-title">Future Impact</div>', unsafe_allow_html=True)
+    st.markdown('<div class="display-title">Future Scope</div>', unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
 
     st.markdown("""
